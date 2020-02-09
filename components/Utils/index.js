@@ -37,7 +37,6 @@ export const ContentWrapper = styled.div`
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 100%;
     max-width: 100%;
     margin: 0 30px;
 
@@ -46,3 +45,4 @@ export const ContentWrapper = styled.div`
         margin: 0px auto;
     }
 `;
+export const mail = ['borja','.','gracia','+cv','@','gmail','.com'];

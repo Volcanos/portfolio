@@ -62,7 +62,7 @@ const JobSeparator = styled.div`
 `;
 const TitleJob = styled.h4`
     text-align: center;
-    margin-bottom: .8rem;
+    margin-bottom: 1.2rem;
 `;
 const RowData = styled.div`
     display: flex;

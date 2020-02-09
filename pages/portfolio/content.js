@@ -13,20 +13,6 @@ export const content = [
         ]
     },
     {
-        url: '/portfolio/dia-de-la-rioja',
-        mainImage: '/images/rioja1.png',
-        title: 'El día de La Rioja',
-        subtitle: 'Microsite',
-        tags: ['HTML5', 'Javascript', 'ES6', 'PHP'],
-        description: 'El microsite del día de La Rioja fué construido totalmente a medida. En el portal se podía subir o realizar una foto al usuario y se generaba un poster con un filtro mezclado con el color que hubiera elegido.',
-        listImages: [
-            '/images/rioja2.png',
-            '/images/rioja3.png',
-            '/images/rioja4.png',
-            '/images/rioja5.png',
-        ]
-    },
-    {
         url: '/portfolio/aviva-voice-tercero-de-confianza',
         mainImage: '/images/aviva1.png',
         title: 'Aviva Voice - Tercero de confianza',
@@ -50,6 +36,20 @@ export const content = [
         listImages: [
             '/images/inoff2.png',
             '/images/inoff3.png'
+        ]
+    },
+    {
+        url: '/portfolio/dia-de-la-rioja',
+        mainImage: '/images/rioja1.png',
+        title: 'El día de La Rioja',
+        subtitle: 'Microsite',
+        tags: ['HTML5', 'Javascript', 'ES6', 'PHP'],
+        description: 'El microsite del día de La Rioja fué construido totalmente a medida. En el portal se podía subir o realizar una foto al usuario y se generaba un poster con un filtro mezclado con el color que hubiera elegido.',
+        listImages: [
+            '/images/rioja2.png',
+            '/images/rioja3.png',
+            '/images/rioja4.png',
+            '/images/rioja5.png',
         ]
     }
 ]

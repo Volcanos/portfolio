@@ -1,7 +1,6 @@
 import styled from 'styled-components';
-import LinkedImage from '../LinkedImage';
 import Nav from '../Nav';
-import {device, colors} from '../Utils';
+import {colors} from '../Utils';
 import Logo from '../Logo';
 
 

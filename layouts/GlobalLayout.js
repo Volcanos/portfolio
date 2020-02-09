@@ -58,6 +58,6 @@ const GlobalWrapper = styled.div`
     display: flex;
     flex-direction: column;
     height: 100%;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding: 30px 0;
 `; 

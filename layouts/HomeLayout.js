@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import GlobalLayout from './GlobalLayout';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import {ContentWrapper} from '../components/Utils';
 
 const HomeLayout = (props) => {
@@ -10,6 +11,7 @@ const HomeLayout = (props) => {
             <HomeWrapper>
                 {props.children}
             </HomeWrapper>
+            <Footer />
         </GlobalLayout>
     );
 }

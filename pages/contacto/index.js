@@ -1,21 +1,28 @@
-import Link from 'next/link';
 import styled from 'styled-components';
-import {colors} from '../Utils';
+import HomeLayout from '../../layouts/HomeLayout';
+import {mail, colors} from '../../components/Utils';
 
-const Anchor = (props) => {
+const handleClick = () => {
+    let formedEmail = mail.reduce((e, a) => e + a);
+    window.open(`mailto:${formedEmail}`);
+}
+
+const Contacto = () => {
     return (
-        <Link href={props.url} as={props.as}>
-            <AnchorS style={props.style} fontSize={props.fontSize}>
-                {props.children}
-            </AnchorS>
-        </Link>
+        <HomeLayout>
+            <ContentWrapper>
+                Si quieres ponerte en contacto conmigo mándame un email pinchando {<Link onClick={handleClick}>aquí</Link>}.
+            </ContentWrapper>
+        </HomeLayout>
     )
 }
-export default Anchor;
+export default Contacto;
 
-const AnchorS = styled.a`
-    font-size: ${props => props.fontSize || '1rem'};
-    text-decoration: none;
+const ContentWrapper = styled.div`
+    margin-bottom: 20%;
+`;
+const Link = styled.a`
+    display: inline-block;
     position: relative;
     &:hover {
         color: ${colors.grey};
