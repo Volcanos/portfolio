@@ -38,7 +38,11 @@ export const ContentWrapper = styled.div`
     display: flex;
     flex-direction: column;
     height: 100%;
-    margin: 0px auto;
-    max-width: ${layoutSettings.maxWidth};
-    width: 100%;
+    max-width: 100%;
+    margin: 0 30px;
+
+    @media ${device.laptop} {
+        max-width: ${layoutSettings.maxWidth};
+        margin: 0px auto;
+    }
 `;

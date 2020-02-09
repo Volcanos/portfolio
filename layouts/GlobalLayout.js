@@ -43,6 +43,10 @@ const GlobalStyles = createGlobalStyle`
     h3, h4 {
         font-weight: 300;
     }
+    img {
+        max-width: 100%;
+        width: 100%;
+    }
     #__next {
         height: 100%;
         display: flex;

@@ -11,7 +11,7 @@ const ProjectListElement = (props) => {
             <LinkedImage url={url} title={title} image={mainImage} />
             <TitleProject>{title}</TitleProject>
             <SubitleProject>{subtitle}</SubitleProject>
-            <Anchor url={url} fontSize=".8rem">Detalles</Anchor>
+            <Anchor url='/portfolio/[slug]' as={url} fontSize=".8rem">Detalles</Anchor>
         </ContentWrapper>
     )
 }
