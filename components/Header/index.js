@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import LinkedImage from '../LinkedImage';
 import Nav from '../Nav';
-import {device} from '../Utils';
+import {device, colors} from '../Utils';
 import Logo from '../Logo';
 
 
@@ -16,12 +16,12 @@ const Header = () => {
 export default Header;
 
 const Wrapper = styled.header`
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid ${colors.silver};
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0 auto;
-    @media ${device.laptop} {
-        max-width: 1000px;
-    }
+    padding: 0 0 60px 0; 
+    width: 100%;
 `;

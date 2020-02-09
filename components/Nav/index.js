@@ -1,15 +1,12 @@
 import styled from 'styled-components';
 import Anchor from '../Anchor';
-
-const menu = [
-    {title: "Home", url: "/"}
-]
+import {menuStructure} from '../Utils';
 
 const Nav = () => {
     return (
         <nav>
             <List>
-                {menu.map((element, i) => {
+                {menuStructure.map((element, i) => {
                     return (
                         <Element key={i}>
                             <Anchor url={element.url} title={element.title}>

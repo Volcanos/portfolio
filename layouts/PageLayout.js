@@ -3,19 +3,19 @@ import GlobalLayout from './GlobalLayout';
 import Header from '../components/Header';
 import {ContentWrapper} from '../components/Utils';
 
-const HomeLayout = (props) => {
+const PageLayout = (props) => {
     return (
         <GlobalLayout>
             <Header />
-            <HomeWrapper>
+            <PageWrapper>
                 {props.children}
-            </HomeWrapper>
+            </PageWrapper>
         </GlobalLayout>
     );
 }
 
-export default HomeLayout;
+export default PageLayout;
 
-const HomeWrapper = styled(ContentWrapper)`
-    justify-content: center;
+const PageWrapper = styled(ContentWrapper)`
+    justify-content: flex-start;
 `; 

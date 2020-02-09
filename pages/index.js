@@ -1,10 +1,18 @@
+import styled from 'styled-components';
 import HomeLayout from '../layouts/HomeLayout';
 
 
-export default function Index() {
+const Index = () => {
     return (
         <HomeLayout>
-            <p>Hello Next.js this is the home</p>
+            <ContentWrapper>
+                Bienvenido a mi portfolio
+            </ContentWrapper>
         </HomeLayout>
     )
 }
+export default Index;
+
+const ContentWrapper = styled.div`
+    margin-bottom: 20%;
+`;

@@ -2,12 +2,13 @@ import styled from 'styled-components';
 
 const Logo = () => {
     return (
-        <LogoDiv>Borja Gracia</LogoDiv>
+        <LogoH1>Borja Gracia Martín</LogoH1>
     )
 }
 
-const LogoDiv = styled.div`
-    font-size: 35px;
+const LogoH1 = styled.h1`
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
 `;
 
 export default Logo;

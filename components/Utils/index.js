@@ -1,3 +1,5 @@
+import styled from 'styled-components';
+
 const size = {
     mobileS: '320px',
     mobileM: '375px',
@@ -19,5 +21,24 @@ export const device = {
 };
 export const colors = {
     black: '#252525',
-    grey: '#6f6f6f'
+    grey: '#6f6f6f',
+    silver: '#e8e8e8'
 }
+export const menuStructure = [
+    {title: "Home", url: "/"},
+    {title: "Portfolio", url: "/portfolio"},
+    {title: "Experiencia laboral", url: "/experiencia-laboral"},
+    {title: "Contacto", url: "/contacto"},
+]
+export const layoutSettings = {
+    maxWidth: '960px'
+}
+export const ContentWrapper = styled.div`
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0px auto;
+    max-width: ${layoutSettings.maxWidth};
+    width: 100%;
+`;
