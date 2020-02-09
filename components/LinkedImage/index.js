@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styled from 'styled-components';
+import {colors} from '../Utils';
 
 const LinkedImage = ({url, image, title}) => {
     return (
@@ -16,5 +17,11 @@ const AnchorS = styled.a`
     display: block;
     &:hover {
         cursor: pointer;
+        & img {
+            opacity: .8;
+        }
+    }
+    & img {
+        transition: all 0.2s ease-in-out;
     }
 `;

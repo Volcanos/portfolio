@@ -26,10 +26,12 @@ const ExperienciaLaboral = () => {
                                     <LabelCell>Descripción:</LabelCell>
                                     <DataCell>{element.description}</DataCell>
                                 </RowData>
-                                <RowData>
-                                    <LabelCell>Tags:</LabelCell>
-                                    <DataCell>{element.tags.map((e, i) => i <= 0 ? e : `, ${e}` )}</DataCell>
-                                </RowData>
+                                {element.tags &&
+                                    <RowData>
+                                        <LabelCell>Tags:</LabelCell>
+                                        <DataCell>{element.tags.map((e, i) => i <= 0 ? e : `, ${e}` )}</DataCell>
+                                    </RowData>
+                                }
                             </JobSeparator>
                         )
                     }

@@ -74,7 +74,8 @@ const ColumnImages = styled.div`
     width: 100%;
 
     @media ${device.tablet} {
-        width: 66%;
+        width: 67%;
+        max-width: 635px;
     }
 `;
 const TitleProject = styled.h4`
