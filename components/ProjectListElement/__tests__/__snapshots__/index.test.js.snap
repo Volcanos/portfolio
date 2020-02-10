@@ -19,7 +19,7 @@ exports[`ProjectListElement render snapshot not change 1`] = `
 }
 
 .c4 {
-  font-size: .8rem;
+  font-size: 1rem;
   -webkit-text-decoration: none;
   text-decoration: none;
   position: relative;
@@ -102,7 +102,6 @@ exports[`ProjectListElement render snapshot not change 1`] = `
   </p>
   <a
     class="c4"
-    font-size=".8rem"
   >
     Detalles
   </a>

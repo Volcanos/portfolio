@@ -52,7 +52,7 @@ exports[`Anchor Basic render snapshot not change 1`] = `
 
 exports[`Anchor Complete render snapshot not change 1`] = `
 .c0 {
-  font-size: 16px;
+  font-size: 1rem;
   -webkit-text-decoration: none;
   text-decoration: none;
   position: relative;
@@ -95,7 +95,6 @@ exports[`Anchor Complete render snapshot not change 1`] = `
 
 <a
   class="c0"
-  font-size="16px"
   style="color:#fff"
 >
   Enlace

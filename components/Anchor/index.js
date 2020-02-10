@@ -5,7 +5,7 @@ import {colors} from '../Utils';
 const Anchor = (props) => {
     return (
         <Link href={props.url} as={props.as}>
-            <AnchorS style={props.style} fontSize={props.fontSize}>
+            <AnchorS style={props.style} >
                 {props.children}
             </AnchorS>
         </Link>

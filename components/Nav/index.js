@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import Anchor from '../Anchor';
-import {menuStructure} from '../Utils';
+import {menuStructure, device} from '../Utils';
 
 const Nav = () => {
     return (

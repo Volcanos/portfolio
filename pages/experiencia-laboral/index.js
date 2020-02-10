@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import PageLayout from '../../layouts/PageLayout';
-import {colors} from '../../components/Utils';
+import {colors, device} from '../../components/Utils';
 
 const ExperienciaLaboral = () => {
     return (
@@ -66,10 +66,16 @@ const TitleJob = styled.h4`
 const RowData = styled.div`
     align-items: flex-start;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    margin-bottom: .3rem;
-    min-width: 100%;
+    margin-bottom: .5rem;
+    width: 100%;
+    max-width: 500px;
+    @media ${device.tablet} {
+        flex-direction: row;
+        margin-bottom: .3rem;
+        max-width: none;
+    }
 `;
 const LabelCell = styled.div`
     color: ${colors.grey};
@@ -77,15 +83,22 @@ const LabelCell = styled.div`
     font-size: 1.2rem;
     line-height: 1rem;
     margin-right: 1rem;
-    text-align: right;
-    width: 150px;
+    text-align: left;
+    width: 100%;
+    @media ${device.tablet} {
+        text-align: right;
+        width: 150px;
+    }
 `;
 const DataCell = styled.div`
     color: ${colors.grey};
     font-size: .9rem;
     line-height: 1rem;
     padding-top: 2px;
-    width: 450px;
+    width: 100%;
+    @media ${device.tablet} {
+        width: 450px;
+    }
 `;
 
 export const content = [
