@@ -2,9 +2,9 @@ import Link from 'next/link';
 import styled from 'styled-components';
 import {colors} from '../Utils';
 
-const LinkedImage = ({url, image, title}) => {
+const LinkedImage = ({url, image, title, prefetch = true}) => {
     return (
-        <Link href={url}>
+        <Link href={url} prefetch={prefetch}>
             <AnchorS>
                 <img src={image} title={title} />
             </AnchorS>

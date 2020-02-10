@@ -3,8 +3,10 @@ import styled from 'styled-components';
 import {colors} from '../Utils';
 
 const Anchor = (props) => {
+    let prefetch = typeof props.prefetch !== 'undefined' ? props.prefetch : true;
+    let properties = prefetch ? {href: props.url, as: props.as} : {href: props.url, as: props.as, prefetch: false};
     return (
-        <Link href={props.url} as={props.as}>
+        <Link {...properties}>
             <AnchorS style={props.style}>
                 {props.children}
             </AnchorS>
