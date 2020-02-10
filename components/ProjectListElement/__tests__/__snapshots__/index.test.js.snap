@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectListElement render snapshot not change 1`] = `
+.c1 {
+  display: block;
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1:hover img {
+  opacity: .8;
+}
+
+.c1 img {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.c4 {
+  font-size: .8rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+}
+
+.c4:hover {
+  color: #6f6f6f;
+  cursor: pointer;
+}
+
+.c4:hover:before,
+.c4:hover:after {
+  width: 50%;
+  opacity: 1;
+}
+
+.c4:before,
+.c4:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 0px;
+  height: 1px;
+  margin: 2px 0 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition-duration: 0.65s;
+  transition-duration: 0.65s;
+  opacity: 0;
+  background-color: #6f6f6f;
+}
+
+.c4:before {
+  left: 50%;
+}
+
+.c4:after {
+  right: 50%;
+}
+
+.c0 {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.c2 {
+  color: #6f6f6f;
+  font-weight: 800;
+  margin-bottom: 0rem;
+  margin-top: 1rem;
+}
+
+.c3 {
+  color: #6f6f6f;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+<div
+  class="c0"
+>
+  <a
+    class="c1"
+  >
+    <img
+      src="/images/push1.png"
+      title="Push Your KPIs"
+    />
+  </a>
+  <h4
+    class="c2"
+  >
+    Push Your KPIs
+  </h4>
+  <p
+    class="c3"
+  >
+    Web
+  </p>
+  <a
+    class="c4"
+    font-size=".8rem"
+  >
+    Detalles
+  </a>
+</div>
+`;

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinkedImage Basic render snapshot not change 1`] = `
+.c0 {
+  display: block;
+}
+
+.c0:hover {
+  cursor: pointer;
+}
+
+.c0:hover img {
+  opacity: .8;
+}
+
+.c0 img {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+<a
+  class="c0"
+>
+  <img
+    src="/test.png"
+  />
+</a>
+`;
+
+exports[`LinkedImage Complete render snapshot not change 1`] = `
+.c0 {
+  display: block;
+}
+
+.c0:hover {
+  cursor: pointer;
+}
+
+.c0:hover img {
+  opacity: .8;
+}
+
+.c0 img {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+<a
+  class="c0"
+>
+  <img
+    src="/test.png"
+    title="imagen de prueba"
+  />
+</a>
+`;

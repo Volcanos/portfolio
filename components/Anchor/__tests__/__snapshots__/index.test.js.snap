@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Anchor Basic render snapshot not change 1`] = `
+.c0 {
+  font-size: 1rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+}
+
+.c0:hover {
+  color: #6f6f6f;
+  cursor: pointer;
+}
+
+.c0:hover:before,
+.c0:hover:after {
+  width: 50%;
+  opacity: 1;
+}
+
+.c0:before,
+.c0:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 0px;
+  height: 1px;
+  margin: 2px 0 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition-duration: 0.65s;
+  transition-duration: 0.65s;
+  opacity: 0;
+  background-color: #6f6f6f;
+}
+
+.c0:before {
+  left: 50%;
+}
+
+.c0:after {
+  right: 50%;
+}
+
+<a
+  class="c0"
+>
+  Enlace
+</a>
+`;
+
+exports[`Anchor Complete render snapshot not change 1`] = `
+.c0 {
+  font-size: 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+}
+
+.c0:hover {
+  color: #6f6f6f;
+  cursor: pointer;
+}
+
+.c0:hover:before,
+.c0:hover:after {
+  width: 50%;
+  opacity: 1;
+}
+
+.c0:before,
+.c0:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 0px;
+  height: 1px;
+  margin: 2px 0 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition-duration: 0.65s;
+  transition-duration: 0.65s;
+  opacity: 0;
+  background-color: #6f6f6f;
+}
+
+.c0:before {
+  left: 50%;
+}
+
+.c0:after {
+  right: 50%;
+}
+
+<a
+  class="c0"
+  font-size="16px"
+  style="color:#fff"
+>
+  Enlace
+</a>
+`;

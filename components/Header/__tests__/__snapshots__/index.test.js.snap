@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header snapshot not change 1`] = `
+.c4 {
+  font-size: 1rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+}
+
+.c4:hover {
+  color: #6f6f6f;
+  cursor: pointer;
+}
+
+.c4:hover:before,
+.c4:hover:after {
+  width: 50%;
+  opacity: 1;
+}
+
+.c4:before,
+.c4:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 0px;
+  height: 1px;
+  margin: 2px 0 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition-duration: 0.65s;
+  transition-duration: 0.65s;
+  opacity: 0;
+  background-color: #6f6f6f;
+}
+
+.c4:before {
+  left: 50%;
+}
+
+.c4:after {
+  right: 50%;
+}
+
+.c2 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  margin-left: 1em;
+}
+
+.c1 {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid #e8e8e8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 0 60px 0;
+  width: 100%;
+}
+
+<header
+  class="c0"
+>
+  <h1
+    class="c1"
+  >
+    Borja Gracia Martín
+  </h1>
+  <nav>
+    <ul
+      class="c2"
+    >
+      <li
+        class="c3"
+      >
+        <a
+          class="c4"
+        >
+          Home
+        </a>
+      </li>
+      <li
+        class="c3"
+      >
+        <a
+          class="c4"
+        >
+          Portfolio
+        </a>
+      </li>
+      <li
+        class="c3"
+      >
+        <a
+          class="c4"
+        >
+          Experiencia laboral
+        </a>
+      </li>
+      <li
+        class="c3"
+      >
+        <a
+          class="c4"
+        >
+          Contacto
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;

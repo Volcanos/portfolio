@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav render snapshot not change 1`] = `
+.c2 {
+  font-size: 1rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+}
+
+.c2:hover {
+  color: #6f6f6f;
+  cursor: pointer;
+}
+
+.c2:hover:before,
+.c2:hover:after {
+  width: 50%;
+  opacity: 1;
+}
+
+.c2:before,
+.c2:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 0px;
+  height: 1px;
+  margin: 2px 0 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition-duration: 0.65s;
+  transition-duration: 0.65s;
+  opacity: 0;
+  background-color: #6f6f6f;
+}
+
+.c2:before {
+  left: 50%;
+}
+
+.c2:after {
+  right: 50%;
+}
+
+.c0 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  margin-left: 1em;
+}
+
+<nav>
+  <ul
+    class="c0"
+  >
+    <li
+      class="c1"
+    >
+      <a
+        class="c2"
+      >
+        Home
+      </a>
+    </li>
+    <li
+      class="c1"
+    >
+      <a
+        class="c2"
+      >
+        Portfolio
+      </a>
+    </li>
+    <li
+      class="c1"
+    >
+      <a
+        class="c2"
+      >
+        Experiencia laboral
+      </a>
+    </li>
+    <li
+      class="c1"
+    >
+      <a
+        class="c2"
+      >
+        Contacto
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

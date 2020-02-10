@@ -7,7 +7,7 @@ import {colors, device} from '../../components/Utils';
 const Project = () => {
     const router = useRouter();
     const { slug } = router.query;
-    let {mainImage, title, subtitle, tags, github, description, web, listImages} = {...content.filter(element => element.url === `/portfolio/${slug}`)[0]};
+    let {mainImage, title, subtitle, tags, github, description, web, listImages} = {...content.reduce((acc, elem) => elem.url === `/portfolio/${slug}` ? elem : acc , {})};
     return (
         <PageLayout>
             <ContentWrapper>

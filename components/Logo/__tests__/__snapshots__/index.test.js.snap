@@ -2,16 +2,13 @@
 
 exports[`Logo snapshot not change 1`] = `
 .c0 {
-  font-size: 35px;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
 }
 
-<Logo>
-  <Logo__LogoDiv>
-    <div
-      className="c0"
-    >
-      Borja Gracia
-    </div>
-  </Logo__LogoDiv>
-</Logo>
+<h1
+  class="c0"
+>
+  Borja Gracia Martín
+</h1>
 `;

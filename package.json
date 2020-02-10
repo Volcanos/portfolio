@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest — watch",
-    "test:coverage": "jest — coverage",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --collectCoverage",
+    "test:update": "jest --updateSnapshot",
     "dev": "next",
     "build": "next build",
     "start": "next start"
