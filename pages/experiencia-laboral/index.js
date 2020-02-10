@@ -49,43 +49,43 @@ const TitleSection = styled.h3`
     text-align: center;
 `;
 const ColumnWrapper = styled.div`
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
 `;
 const JobSeparator = styled.div`
     border-bottom: 1px solid ${colors.silver};
-    width: 100%;
     padding: 2rem 0;
+    width: 100%;
 `;
 const TitleJob = styled.h4`
-    text-align: center;
     margin-bottom: 1.2rem;
+    text-align: center;
 `;
 const RowData = styled.div`
+    align-items: flex-start;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
-    min-width: 100%;
     margin-bottom: .3rem;
+    min-width: 100%;
 `;
 const LabelCell = styled.div`
-    width: 150px;
-    text-align: right;
-    margin-right: 1rem;
+    color: ${colors.grey};
     font-family: 'Advent Pro',sans-serif;
     font-size: 1.2rem;
     line-height: 1rem;
-    color: ${colors.grey};
+    margin-right: 1rem;
+    text-align: right;
+    width: 150px;
 `;
 const DataCell = styled.div`
-    width: 450px;
-    line-height: 1rem;
-    padding-top: 2px;
     color: ${colors.grey};
     font-size: .9rem;
+    line-height: 1rem;
+    padding-top: 2px;
+    width: 450px;
 `;
 
 export const content = [
@@ -94,7 +94,7 @@ export const content = [
         dateInit: '2018',
         dateEnd: 'actualidad',
         duration: '2 años',
-        description: 'Responsable del equipo de desarrollo front-end con seis personas a mi cargo. Desarrollo del proyecto de renovación de la interface de la plataforma con la tecnología React Native.',
+        description: 'Responsable del equipo de desarrollo front-end con cinco personas a mi cargo. Desarrollo del proyecto de renovación de la interface de la plataforma con la tecnología React Native.',
         tags: ['React Native', 'ES6', 'Functional programming', 'Redux', 'Webpack', 'Jest', 'Styled components']
     },
     {
