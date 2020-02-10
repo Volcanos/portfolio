@@ -31,7 +31,7 @@ export const content = [
         mainImage: '/images/push1.png',
         title: 'Push Your KPIs',
         subtitle: 'Web + aplicación',
-        tags: ['Statamic', 'Laravel', 'React Native', 'Mobile', 'API', 'Notifications', 'Android', 'iOS'],
+        tags: ['Statamic', 'Laravel', 'React Native', 'ES6', 'Mobile', 'API', 'Notifications', 'Android', 'iOS'],
         web: {url: 'https://pushyourkpis.com', label: 'pushyourkpis.com'},
         description: 'El proyecto de Push Your KPIs consiste, en un administrador simple en que el usuario puede gestionar sus indicadores, y en una app para que los empleados puedan hacer seguimiento de esos mismos indicadores. Además el gestor tiene la capacidad de enviar mensajes push filtrados para poder incentivar o informar a los empleados. Este proyecto se realizó con el CMS Statamic que trabaja sobre Laravel. Para la aplicación se utilizó React Native para el desarrollo completo de las aplicaciones para dispositivos Android e iOS.',
         listImages: [
