@@ -68,6 +68,46 @@ exports[`Header snapshot not change 1`] = `
   margin-left: 1em;
 }
 
+.c5 {
+  display: inline-block;
+  position: relative;
+}
+
+.c5:hover {
+  color: #6f6f6f;
+  cursor: pointer;
+}
+
+.c5:hover:before,
+.c5:hover:after {
+  width: 50%;
+  opacity: 1;
+}
+
+.c5:before,
+.c5:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 0px;
+  height: 1px;
+  margin: 2px 0 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition-duration: 0.65s;
+  transition-duration: 0.65s;
+  opacity: 0;
+  background-color: #6f6f6f;
+}
+
+.c5:before {
+  left: 50%;
+}
+
+.c5:after {
+  right: 50%;
+}
+
 .c1 {
   font-size: 1.6rem;
   margin-bottom: 2rem;
@@ -138,7 +178,7 @@ exports[`Header snapshot not change 1`] = `
         class="c3"
       >
         <a
-          class="c4"
+          class="c5"
         >
           Contacto
         </a>

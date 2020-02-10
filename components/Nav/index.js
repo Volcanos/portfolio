@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 import Anchor from '../Anchor';
-import {menuStructure, device} from '../Utils';
+import {menuStructure, mail, colors} from '../Utils';
+
+const handleClick = () => {
+    let formedEmail = mail.reduce((a, v) => v === "#" ? a + "@" : a + v, "");
+    window.open(`mailto:${formedEmail}`);
+}
 
 const Nav = () => {
     return (
@@ -9,9 +14,15 @@ const Nav = () => {
                 {menuStructure.map((element, i) => {
                     return (
                         <Element key={i}>
-                            <Anchor url={element.url} title={element.title}>
-                                {element.title}
-                            </Anchor>
+                            {element.url === 'handleClick' ?
+                                <Link onClick={handleClick}>
+                                    {element.title}
+                                </Link>
+                                :
+                                <Anchor url={element.url} title={element.title}>
+                                    {element.title}
+                                </Anchor>
+                            }                            
                         </Element>
                     );
                 })}
@@ -32,4 +43,38 @@ const List = styled.ul`
 `;
 const Element = styled.li`
     margin-left: 1em;
+`;
+const Link = styled.a`
+    display: inline-block;
+    position: relative;
+    &:hover {
+        color: ${colors.grey};
+        cursor: pointer;
+
+        &:before,
+        &:after {
+            width: 50%;
+            opacity: 1;
+        }
+    }
+
+    &:before,
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        width: 0px;
+        height: 1px;
+        margin: 2px 0 0;
+        transition: all 0.2s ease-in-out;
+        transition-duration: 0.65s;
+        opacity: 0;
+        background-color: ${colors.grey};
+    }
+    &:before {
+        left: 50%;
+    }
+    &:after {
+        right: 50%;
+    }
 `;
