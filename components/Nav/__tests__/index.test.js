@@ -8,7 +8,7 @@ describe('Nav', function () {
         const text = render(<Nav />).html();
         expect(text).toMatch(/Home/);
         expect(text).toMatch(/Portfolio/);
-        expect(text).toMatch(/Experiencia laboral/);
+        expect(text).toMatch(/Experiencia/);
         expect(text).toMatch(/Contacto/);
     });
     it('render snapshot not change', function () {

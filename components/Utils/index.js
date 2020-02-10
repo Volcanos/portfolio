@@ -27,7 +27,7 @@ export const colors = {
 export const menuStructure = [
     {title: "Home", url: "/"},
     {title: "Portfolio", url: "/portfolio"},
-    {title: "Experiencia laboral", url: "/experiencia-laboral"},
+    {title: "Experiencia", url: "/experiencia-laboral"},
     {title: "Contacto", url: "handleClick"},
 ]
 export const layoutSettings = {
