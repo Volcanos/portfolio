@@ -8,10 +8,10 @@ const ProjectListElement = (props) => {
     const {url, title, mainImage, subtitle} = {...props}
     return (
         <ContentWrapper>
-            <LinkedImage url={url} title={title} image={mainImage} prefetch={false} />
+            <LinkedImage url={url} title={title} image={mainImage} />
             <TitleProject>{title}</TitleProject>
             <SubitleProject>{subtitle}</SubitleProject>
-            <Anchor url='/portfolio/[slug]' as={url} fontSize=".8rem" prefetch={false}>Detalles</Anchor>
+            <Anchor url='/portfolio/[slug]' as={url} fontSize=".8rem">Detalles</Anchor>
         </ContentWrapper>
     )
 }
