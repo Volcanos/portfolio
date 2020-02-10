@@ -1,8 +1,8 @@
 import { useRouter } from 'next/router';
 import styled from 'styled-components';
 import PageLayout from '../../layouts/PageLayout';
-import {content} from './content';
 import {colors, device} from '../../components/Utils';
+import {content} from './index';
 
 const Project = () => {
     const router = useRouter();
