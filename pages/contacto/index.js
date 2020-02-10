@@ -3,7 +3,7 @@ import HomeLayout from '../../layouts/HomeLayout';
 import {mail, colors} from '../../components/Utils';
 
 const handleClick = () => {
-    let formedEmail = mail.reduce((e, a) => e + a);
+    let formedEmail = mail.reduce((a, v) => v === "#" ? a + "@" : a + v, "");
     window.open(`mailto:${formedEmail}`);
 }
 

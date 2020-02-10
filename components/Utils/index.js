@@ -45,4 +45,4 @@ export const ContentWrapper = styled.div`
         margin: 0px auto;
     }
 `;
-export const mail = ['borja','.','gracia','+cv','@','gmail','.com'];
+export const mail = ['borja','.','gracia','+cv','#','gmail','.com'];
