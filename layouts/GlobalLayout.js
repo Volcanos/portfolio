@@ -9,6 +9,7 @@ const GlobalLayout = (props) => {
             <Head>
                 <title>Borja Gracia Martín - Portfolio</title>
                 <link href="https://fonts.googleapis.com/css?family=Advent+Pro:300,500|Montserrat:300&display=swap" rel="stylesheet" />
+                <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
             </Head>            
             <GlobalStyles />
             <GlobalWrapper>
